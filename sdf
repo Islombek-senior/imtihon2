@@ -1,0 +1,35 @@
+   <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+      integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./system.js"></script>
+    <script src="./dist/index.js"></script>
+    <script>
+      Object.keys(System.registerRegistry).forEach((key) =>
+        System.import(key).then((module) => {
+          //   console.log(document.querySelector("col-4"));
+          //   document.getElementsByTagName("h1")[0].onclick = module.test;
+        })
+      );
+    </script>
+
+
+
+    ////
+
+
+     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+      integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./system.js"></script>
+    <script src="./dist/index.js"></script>
+    <script>
+      Object.keys(System.registerRegistry).forEach((key) =>
+        System.import(key).then((module) => {})
+      );
+    </script>
